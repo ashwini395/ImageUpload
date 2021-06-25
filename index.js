@@ -6,8 +6,8 @@ const upload = multer({dest: __dirname + '/uploads/images'});
 const AWS = require('aws-sdk');
 const app = express();
 const PORT = 3000;
-const accesKeyId ='AKIAZDMB3MJ5HCNOFZP3';
-const secretAccessKey ='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';
+const accesKeyId ='AKIAZDMB3MJ5BYFU6XPR';
+const secretAccessKey ='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';
 
 const s3 = new AWS.S3({
     accessKeyId: accesKeyId,
