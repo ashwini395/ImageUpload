@@ -62,7 +62,7 @@ app.post('/upload', upload.single('photo'), async (req, res) => {
                     <h1 class="card-header">Image Uploaded successfully</h1>
                 </div>
                 <div style="width:100%; height:auto">
-                  <img style="width:100%; height:auto; margin-left:auto; margin-right:auto; margin-top:50px" src=${imagaPath} alt="">
+                  <img style="width:50%; height:auto; margin-left:auto; margin-right:auto; margin-top:50px" src=${imagaPath} alt="">
                 </div>
             </div>
 
