@@ -6,8 +6,9 @@ const upload = multer({dest: __dirname + '/uploads/images'});
 const AWS = require('aws-sdk');
 const app = express();
 const PORT = 3000;
-const accesKeyId ='AKIAZDMB3MJ5BYFU6XPR';
-const secretAccessKey ='HeGIeZAkcCmj1Y3wYt+9Z+p6kC/PHwalIm096jzw';
+//Add your AccessKeys for testing
+const accesKeyId ='accesKeyId_xxx'; 
+const secretAccessKey ='secretAccessKey_xxx';
 
 const s3 = new AWS.S3({
     accessKeyId: accesKeyId,
